@@ -149,8 +149,8 @@ function swapMinMax(array) {
   let max = array[0];
   let min = array[0];
 
-  let maxIndex, minIndex;
-  maxIndex = minIndex = 0;
+  let maxIndex = 0;
+  let minIndex = 0;
 
   for (let i = 0; i < array.length; i++) {
     let valueOfArray = array[i];
